@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068D1C2119A98D0C0065BC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C2019A98D0C0065BC62 /* Foundation.framework */; };
+		068D1C2319A98D0C0065BC62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C2219A98D0C0065BC62 /* CoreGraphics.framework */; };
+		068D1C2519A98D0C0065BC62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C2419A98D0C0065BC62 /* UIKit.framework */; };
+		068D1C2B19A98D0C0065BC62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C2919A98D0C0065BC62 /* InfoPlist.strings */; };
+		068D1C2D19A98D0C0065BC62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C2C19A98D0C0065BC62 /* main.m */; };
+		068D1C3119A98D0C0065BC62 /* HLYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C3019A98D0C0065BC62 /* HLYAppDelegate.m */; };
+		068D1C3419A98D0C0065BC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C3219A98D0C0065BC62 /* Main.storyboard */; };
+		068D1C3719A98D0C0065BC62 /* HLYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C3619A98D0C0065BC62 /* HLYViewController.m */; };
+		068D1C3919A98D0C0065BC62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C3819A98D0C0065BC62 /* Images.xcassets */; };
+		068D1C4019A98D0C0065BC62 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C3F19A98D0C0065BC62 /* XCTest.framework */; };
+		068D1C4119A98D0C0065BC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C2019A98D0C0065BC62 /* Foundation.framework */; };
+		068D1C4219A98D0C0065BC62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068D1C2419A98D0C0065BC62 /* UIKit.framework */; };
+		068D1C4A19A98D0C0065BC62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C4819A98D0C0065BC62 /* InfoPlist.strings */; };
+		068D1C4C19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C4B19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.m */; };
+		068D1C7519AA32080065BC62 /* HLYDateFormatManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C7219AA32080065BC62 /* HLYDateFormatManager.bundle */; };
+		068D1C7619AA32080065BC62 /* HLYDateFormatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C7419AA32080065BC62 /* HLYDateFormatManager.m */; };
+		068D1C7F19AA32570065BC62 /* HLYPullToRefreshLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C7919AA32570065BC62 /* HLYPullToRefreshLoadingView.m */; };
+		068D1C8019AA32570065BC62 /* HLYPullToRefreshManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 068D1C7A19AA32570065BC62 /* HLYPullToRefreshManager.bundle */; };
+		068D1C8119AA32570065BC62 /* HLYPullToRefreshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C7C19AA32570065BC62 /* HLYPullToRefreshManager.m */; };
+		068D1C8219AA32570065BC62 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D1C7E19AA32570065BC62 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068D1C4319A98D0C0065BC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068D1C1519A98D0C0065BC62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068D1C1C19A98D0C0065BC62;
+			remoteInfo = HLYPullToRefreshManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068D1C1D19A98D0C0065BC62 /* HLYPullToRefreshManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYPullToRefreshManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068D1C2019A98D0C0065BC62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		068D1C2219A98D0C0065BC62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		068D1C2419A98D0C0065BC62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		068D1C2819A98D0C0065BC62 /* HLYPullToRefreshManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLYPullToRefreshManager-Info.plist"; sourceTree = "<group>"; };
+		068D1C2A19A98D0C0065BC62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		068D1C2C19A98D0C0065BC62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		068D1C2E19A98D0C0065BC62 /* HLYPullToRefreshManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLYPullToRefreshManager-Prefix.pch"; sourceTree = "<group>"; };
+		068D1C2F19A98D0C0065BC62 /* HLYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLYAppDelegate.h; sourceTree = "<group>"; };
+		068D1C3019A98D0C0065BC62 /* HLYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLYAppDelegate.m; sourceTree = "<group>"; };
+		068D1C3319A98D0C0065BC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068D1C3519A98D0C0065BC62 /* HLYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLYViewController.h; sourceTree = "<group>"; };
+		068D1C3619A98D0C0065BC62 /* HLYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLYViewController.m; sourceTree = "<group>"; };
+		068D1C3819A98D0C0065BC62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		068D1C3E19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLYPullToRefreshManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068D1C3F19A98D0C0065BC62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		068D1C4719A98D0C0065BC62 /* HLYPullToRefreshManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLYPullToRefreshManagerTests-Info.plist"; sourceTree = "<group>"; };
+		068D1C4919A98D0C0065BC62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		068D1C4B19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLYPullToRefreshManagerTests.m; sourceTree = "<group>"; };
+		068D1C6819AA29CF0065BC62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		068D1C6919AA29CF0065BC62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		068D1C6A19AA29CF0065BC62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		068D1C7219AA32080065BC62 /* HLYDateFormatManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLYDateFormatManager.bundle; sourceTree = "<group>"; };
+		068D1C7319AA32080065BC62 /* HLYDateFormatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYDateFormatManager.h; sourceTree = "<group>"; };
+		068D1C7419AA32080065BC62 /* HLYDateFormatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYDateFormatManager.m; sourceTree = "<group>"; };
+		068D1C7819AA32570065BC62 /* HLYPullToRefreshLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYPullToRefreshLoadingView.h; sourceTree = "<group>"; };
+		068D1C7919AA32570065BC62 /* HLYPullToRefreshLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYPullToRefreshLoadingView.m; sourceTree = "<group>"; };
+		068D1C7A19AA32570065BC62 /* HLYPullToRefreshManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HLYPullToRefreshManager.bundle; sourceTree = "<group>"; };
+		068D1C7B19AA32570065BC62 /* HLYPullToRefreshManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLYPullToRefreshManager.h; sourceTree = "<group>"; };
+		068D1C7C19AA32570065BC62 /* HLYPullToRefreshManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLYPullToRefreshManager.m; sourceTree = "<group>"; };
+		068D1C7D19AA32570065BC62 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		068D1C7E19AA32570065BC62 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068D1C1A19A98D0C0065BC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C2319A98D0C0065BC62 /* CoreGraphics.framework in Frameworks */,
+				068D1C2519A98D0C0065BC62 /* UIKit.framework in Frameworks */,
+				068D1C2119A98D0C0065BC62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068D1C3B19A98D0C0065BC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C4019A98D0C0065BC62 /* XCTest.framework in Frameworks */,
+				068D1C4219A98D0C0065BC62 /* UIKit.framework in Frameworks */,
+				068D1C4119A98D0C0065BC62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068D1C1419A98D0C0065BC62 = {
+			isa = PBXGroup;
+			children = (
+				068D1C2619A98D0C0065BC62 /* HLYPullToRefreshManager */,
+				068D1C4519A98D0C0065BC62 /* HLYPullToRefreshManagerTests */,
+				068D1C1F19A98D0C0065BC62 /* Frameworks */,
+				068D1C1E19A98D0C0065BC62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068D1C1E19A98D0C0065BC62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C1D19A98D0C0065BC62 /* HLYPullToRefreshManager.app */,
+				068D1C3E19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068D1C1F19A98D0C0065BC62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C2019A98D0C0065BC62 /* Foundation.framework */,
+				068D1C2219A98D0C0065BC62 /* CoreGraphics.framework */,
+				068D1C2419A98D0C0065BC62 /* UIKit.framework */,
+				068D1C3F19A98D0C0065BC62 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		068D1C2619A98D0C0065BC62 /* HLYPullToRefreshManager */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C2F19A98D0C0065BC62 /* HLYAppDelegate.h */,
+				068D1C3019A98D0C0065BC62 /* HLYAppDelegate.m */,
+				068D1C7719AA32570065BC62 /* PullToRefreshManager */,
+				068D1C7119AA32080065BC62 /* DateFormatManager */,
+				068D1C3219A98D0C0065BC62 /* Main.storyboard */,
+				068D1C3519A98D0C0065BC62 /* HLYViewController.h */,
+				068D1C3619A98D0C0065BC62 /* HLYViewController.m */,
+				068D1C3819A98D0C0065BC62 /* Images.xcassets */,
+				068D1C2719A98D0C0065BC62 /* Supporting Files */,
+			);
+			path = HLYPullToRefreshManager;
+			sourceTree = "<group>";
+		};
+		068D1C2719A98D0C0065BC62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C2819A98D0C0065BC62 /* HLYPullToRefreshManager-Info.plist */,
+				068D1C2919A98D0C0065BC62 /* InfoPlist.strings */,
+				068D1C2C19A98D0C0065BC62 /* main.m */,
+				068D1C2E19A98D0C0065BC62 /* HLYPullToRefreshManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068D1C4519A98D0C0065BC62 /* HLYPullToRefreshManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C4B19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.m */,
+				068D1C4619A98D0C0065BC62 /* Supporting Files */,
+			);
+			path = HLYPullToRefreshManagerTests;
+			sourceTree = "<group>";
+		};
+		068D1C4619A98D0C0065BC62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C4719A98D0C0065BC62 /* HLYPullToRefreshManagerTests-Info.plist */,
+				068D1C4819A98D0C0065BC62 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068D1C7119AA32080065BC62 /* DateFormatManager */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C7219AA32080065BC62 /* HLYDateFormatManager.bundle */,
+				068D1C7319AA32080065BC62 /* HLYDateFormatManager.h */,
+				068D1C7419AA32080065BC62 /* HLYDateFormatManager.m */,
+			);
+			path = DateFormatManager;
+			sourceTree = "<group>";
+		};
+		068D1C7719AA32570065BC62 /* PullToRefreshManager */ = {
+			isa = PBXGroup;
+			children = (
+				068D1C7819AA32570065BC62 /* HLYPullToRefreshLoadingView.h */,
+				068D1C7919AA32570065BC62 /* HLYPullToRefreshLoadingView.m */,
+				068D1C7A19AA32570065BC62 /* HLYPullToRefreshManager.bundle */,
+				068D1C7B19AA32570065BC62 /* HLYPullToRefreshManager.h */,
+				068D1C7C19AA32570065BC62 /* HLYPullToRefreshManager.m */,
+				068D1C7D19AA32570065BC62 /* UIView+Frame.h */,
+				068D1C7E19AA32570065BC62 /* UIView+Frame.m */,
+			);
+			path = PullToRefreshManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068D1C1C19A98D0C0065BC62 /* HLYPullToRefreshManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068D1C4F19A98D0C0065BC62 /* Build configuration list for PBXNativeTarget "HLYPullToRefreshManager" */;
+			buildPhases = (
+				068D1C1919A98D0C0065BC62 /* Sources */,
+				068D1C1A19A98D0C0065BC62 /* Frameworks */,
+				068D1C1B19A98D0C0065BC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLYPullToRefreshManager;
+			productName = HLYPullToRefreshManager;
+			productReference = 068D1C1D19A98D0C0065BC62 /* HLYPullToRefreshManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		068D1C3D19A98D0C0065BC62 /* HLYPullToRefreshManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068D1C5219A98D0C0065BC62 /* Build configuration list for PBXNativeTarget "HLYPullToRefreshManagerTests" */;
+			buildPhases = (
+				068D1C3A19A98D0C0065BC62 /* Sources */,
+				068D1C3B19A98D0C0065BC62 /* Frameworks */,
+				068D1C3C19A98D0C0065BC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068D1C4419A98D0C0065BC62 /* PBXTargetDependency */,
+			);
+			name = HLYPullToRefreshManagerTests;
+			productName = HLYPullToRefreshManagerTests;
+			productReference = 068D1C3E19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068D1C1519A98D0C0065BC62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HLY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = huangluyang;
+				TargetAttributes = {
+					068D1C3D19A98D0C0065BC62 = {
+						TestTargetID = 068D1C1C19A98D0C0065BC62;
+					};
+				};
+			};
+			buildConfigurationList = 068D1C1819A98D0C0065BC62 /* Build configuration list for PBXProject "HLYPullToRefreshManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 068D1C1419A98D0C0065BC62;
+			productRefGroup = 068D1C1E19A98D0C0065BC62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068D1C1C19A98D0C0065BC62 /* HLYPullToRefreshManager */,
+				068D1C3D19A98D0C0065BC62 /* HLYPullToRefreshManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068D1C1B19A98D0C0065BC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C3919A98D0C0065BC62 /* Images.xcassets in Resources */,
+				068D1C8019AA32570065BC62 /* HLYPullToRefreshManager.bundle in Resources */,
+				068D1C7519AA32080065BC62 /* HLYDateFormatManager.bundle in Resources */,
+				068D1C2B19A98D0C0065BC62 /* InfoPlist.strings in Resources */,
+				068D1C3419A98D0C0065BC62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068D1C3C19A98D0C0065BC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C4A19A98D0C0065BC62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068D1C1919A98D0C0065BC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C7619AA32080065BC62 /* HLYDateFormatManager.m in Sources */,
+				068D1C3719A98D0C0065BC62 /* HLYViewController.m in Sources */,
+				068D1C3119A98D0C0065BC62 /* HLYAppDelegate.m in Sources */,
+				068D1C2D19A98D0C0065BC62 /* main.m in Sources */,
+				068D1C7F19AA32570065BC62 /* HLYPullToRefreshLoadingView.m in Sources */,
+				068D1C8219AA32570065BC62 /* UIView+Frame.m in Sources */,
+				068D1C8119AA32570065BC62 /* HLYPullToRefreshManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068D1C3A19A98D0C0065BC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068D1C4C19A98D0C0065BC62 /* HLYPullToRefreshManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068D1C4419A98D0C0065BC62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068D1C1C19A98D0C0065BC62 /* HLYPullToRefreshManager */;
+			targetProxy = 068D1C4319A98D0C0065BC62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		068D1C2919A98D0C0065BC62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068D1C2A19A98D0C0065BC62 /* en */,
+				068D1C6919AA29CF0065BC62 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		068D1C3219A98D0C0065BC62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068D1C3319A98D0C0065BC62 /* Base */,
+				068D1C6819AA29CF0065BC62 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		068D1C4819A98D0C0065BC62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068D1C4919A98D0C0065BC62 /* en */,
+				068D1C6A19AA29CF0065BC62 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068D1C4D19A98D0C0065BC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		068D1C4E19A98D0C0065BC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068D1C5019A98D0C0065BC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLYPullToRefreshManager/HLYPullToRefreshManager-Prefix.pch";
+				INFOPLIST_FILE = "HLYPullToRefreshManager/HLYPullToRefreshManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		068D1C5119A98D0C0065BC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLYPullToRefreshManager/HLYPullToRefreshManager-Prefix.pch";
+				INFOPLIST_FILE = "HLYPullToRefreshManager/HLYPullToRefreshManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		068D1C5319A98D0C0065BC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLYPullToRefreshManager.app/HLYPullToRefreshManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLYPullToRefreshManager/HLYPullToRefreshManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HLYPullToRefreshManagerTests/HLYPullToRefreshManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		068D1C5419A98D0C0065BC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLYPullToRefreshManager.app/HLYPullToRefreshManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLYPullToRefreshManager/HLYPullToRefreshManager-Prefix.pch";
+				INFOPLIST_FILE = "HLYPullToRefreshManagerTests/HLYPullToRefreshManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068D1C1819A98D0C0065BC62 /* Build configuration list for PBXProject "HLYPullToRefreshManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068D1C4D19A98D0C0065BC62 /* Debug */,
+				068D1C4E19A98D0C0065BC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068D1C4F19A98D0C0065BC62 /* Build configuration list for PBXNativeTarget "HLYPullToRefreshManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068D1C5019A98D0C0065BC62 /* Debug */,
+				068D1C5119A98D0C0065BC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		068D1C5219A98D0C0065BC62 /* Build configuration list for PBXNativeTarget "HLYPullToRefreshManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068D1C5319A98D0C0065BC62 /* Debug */,
+				068D1C5419A98D0C0065BC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068D1C1519A98D0C0065BC62 /* Project object */;
+}

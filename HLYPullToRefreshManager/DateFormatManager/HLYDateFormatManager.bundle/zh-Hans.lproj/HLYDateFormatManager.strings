@@ -1,0 +1,10 @@
+/* 
+  HLYDateFormatManager.strings
+  HLYPullToRefreshManager
+
+  Created by huangluyang on 14-8-24.
+  Copyright (c) 2014年 huangluyang. All rights reserved.
+*/
+"msg_justnow" = "刚刚";
+"placeholder_minutesbefore" = "分钟前";
+"placeholder_lasttime" = "上次刷新";
