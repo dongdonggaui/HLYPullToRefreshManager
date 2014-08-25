@@ -21,4 +21,13 @@
  */
 - (NSString *)lapseTimeFormatFromDate:(NSDate *)date;
 
+/**
+ *  yyyy-MM-dd HH:mm:ss 格式显示时间
+ *
+ *  @param date 需要转换格式的时间戳
+ *
+ *  @return 相应格式的时间字符串
+ */
+- (NSString *)longDisplayStringFromDate:(NSDate *)date;
+
 @end

@@ -61,6 +61,11 @@
     return timeString;
 }
 
+- (NSString *)longDisplayStringFromDate:(NSDate *)date
+{
+    return [self.yearMothDayHourMinuteSecondFormater stringFromDate:date];
+}
+
 #pragma mark -
 #pragma mark - private
 
